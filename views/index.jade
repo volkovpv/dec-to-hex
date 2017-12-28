@@ -1,5 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div.col-md-4.col-md-offset-4
+      h1= title
+      div= error
+      div
+          form(action="/convector", method="GET")
+              input.form-control(name="id", type="text", placeholder="ID")
+              button.btn.btn-lg.btn-primary.mt-15.btn-block(type="submit") To convert
+      div.mt-15=resData
+

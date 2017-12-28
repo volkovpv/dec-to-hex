@@ -1,11 +1,22 @@
 {
   "name": "dec-to-hex",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovpv/dec-to-hex.git"
+  },
+  "author": "volkovpv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/volkovpv/dec-to-hex/issues"
+  },
+  "homepage": "https://github.com/volkovpv/dec-to-hex#readme",
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "bignum": "^0.12.5",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
