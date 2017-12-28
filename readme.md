@@ -3,6 +3,6 @@
  
 ##Prod start
 
-* git clone https://github.com/volkovpv/search-movie.git  
+* git clone https://github.com/volkovpv/dec-to-hex.git  
 * npm start  
 * Then, load http://localhost:3000/ in a browser to see the output.
